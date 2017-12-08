@@ -1,0 +1,27 @@
+xxd:
+  security:
+    loginPage: /login.html
+  domain:
+    ip: 192.168.39.22
+    port: 389
+  serviceUrl: http://dmp-service
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.32.30:3306/manager?useSSL=false
+    username: root
+    password: Ab*)126722
+  session:
+    store-type: none
+  jpa:
+    show-sql: true
+  application:
+    name: dmp-user
+logging:
+  level: debug
+server:
+  port: 1101
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.32.30:1100/eureka/

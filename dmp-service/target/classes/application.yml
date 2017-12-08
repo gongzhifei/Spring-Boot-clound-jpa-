@@ -1,0 +1,43 @@
+server:
+  port: 1102
+custom:
+  datasource:
+    manager:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://192.168.32.30:3306/manager?useSSL=false
+      username: root
+      password: Ab*)126722
+    report:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://192.168.32.30:3306/dmp_lc_offline?useSSL=false
+      username: root
+      password: Ab*)126722
+
+security:
+  basic:
+    enabled: false
+spring:
+  jpa:
+    show-sql: true
+  redis:
+    host-name: 192.168.32.30
+    port: 6379
+    pool:
+      max-active: 8
+      # 连接池最大阻塞等待时间（使用负值表示没有限制）
+      max-wait: -1
+      min-idle: 0
+      max-idle: 8
+    timeout: 0
+  session:
+    store-type: none
+  application:
+    name: dmp-service
+logging:
+  level: debug
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.32.30:1100/eureka/
+  instance:
+    hostname: 192.168.32.30

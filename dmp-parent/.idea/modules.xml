@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../dmp-model/dmp-model.iml" filepath="$PROJECT_DIR$/../dmp-model/dmp-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/dmp-parent.iml" filepath="$PROJECT_DIR$/.idea/dmp-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../dmp-service/dmp-service.iml" filepath="$PROJECT_DIR$/../dmp-service/dmp-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../dmp-user/dmp-user.iml" filepath="$PROJECT_DIR$/../dmp-user/dmp-user.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,15 @@
+server:
+  port: 1100
+eureka:
+  instance:
+    hostname: eureka-server
+  client:
+    register-with-eureka: false #当前项目为注册中心，不需要向自己注册设置为false
+    fetch-registry: false #服务中心职责是维护服务实例，不需要检索服务设置为false
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+    healthcheck:
+      enabled: true
+spring:
+  application:
+    name: eureka-server

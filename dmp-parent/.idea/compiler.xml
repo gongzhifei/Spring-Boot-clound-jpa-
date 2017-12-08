@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dmp-model" />
+        <module name="dmp-service" />
+        <module name="dmp-user" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dmp-model" target="1.8" />
+      <module name="dmp-parent" target="1.8" />
+      <module name="dmp-service" target="1.8" />
+      <module name="dmp-user" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

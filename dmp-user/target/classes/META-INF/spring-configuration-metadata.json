@@ -1,0 +1,17 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.xxd.properties.SecurityProperties",
+      "name": "xxd.security",
+      "type": "com.xxd.properties.SecurityProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.xxd.properties.SecurityProperties",
+      "name": "xxd.security.login-page",
+      "type": "java.lang.String"
+    }
+  ]
+}
